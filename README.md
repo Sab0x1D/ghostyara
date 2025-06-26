@@ -31,16 +31,3 @@ Focus: Precision, portability, and low false positives.
 - Purple team rule validation
 
 ---
-
-## 🧾 Signature Block
-
--= [ _Sab0x1D_ ] =-  
-Digital Forensic Nomad → Hex-bound | Ghost-backed
-
-```txt
-Track • Profile • Burn:
-{
-  Silent ops;
-  Malware trace;
-  Infra teardown;
-}
