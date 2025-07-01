@@ -1,4 +1,4 @@
-# 👻 ghostyara
+# ghostyara
 
 **Clean YARA Rule Repository**  
 Reverse-engineered rules for tracking, analyzing, and attributing malware samples.  
@@ -6,15 +6,15 @@ Focus: Precision, portability, and low false positives.
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
-- 🔬 Reverse-engineered YARA rules
-- 🧼 Cleaned and normalized for public sharing
-- 🧠 Focused on evasion-aware patterning (e.g., malware packers, loaders, crypters)
+- Reverse-engineered YARA rules
+- Cleaned and normalized for public sharing
+- Focused on evasion-aware patterning (e.g., malware packers, loaders, crypters)
 
 ---
 
-## 📁 Structure
+## Structure
 
 | Folder        | Contents                             |
 |---------------|--------------------------------------|
@@ -24,7 +24,7 @@ Focus: Precision, portability, and low false positives.
 
 ---
 
-## 🔍 Use Cases
+## Use Cases
 
 - Malware reverse engineering and attribution
 - Threat intel enrichment (APT signatures, loaders, etc.)
