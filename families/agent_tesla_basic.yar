@@ -1,7 +1,7 @@
 rule agent_tesla_basic
 {
     meta:
-        author = "Sabi KISS"
+        author = "Sab0x1D"
         date = "2025-07-09"
         description = "Detects AgentTesla stealer using static strings and mutex patterns"
         malware_family = "AgentTesla"
