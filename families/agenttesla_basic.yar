@@ -1,4 +1,4 @@
-rule agent_tesla_basic
+rule agenttesla_basic
 {
     meta:
         author = "Sab0x1D"
@@ -6,7 +6,7 @@ rule agent_tesla_basic
         description = "Detects AgentTesla stealer using static strings and mutex patterns"
         malware_family = "AgentTesla"
         mitre_attack = "T1056.001, T1113, T1005"
-        reference = ""
+        reference = "https://tria.ge/240309-agt01"
         score = 85
         crosslink = "https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/agenttesla_c2_patterns.md"
 
@@ -16,7 +16,7 @@ rule agent_tesla_basic
         $config2 = "HostName" ascii
         $url1 = "smtp.yandex.com" ascii
         $url2 = "smtp.office365.com" ascii
-        $b64marker = "TVqQAAMAAAAEAAAA" ascii  // MZ header in base64
+        $b64marker = "TVqQAAMAAAAEAAAA" ascii  // base64-encoded 'MZ' PE header
         $http1 = "POST /api/addlog" ascii wide
 
     condition:
