@@ -6,7 +6,7 @@ rule agenttesla_basic
         description = "Detects AgentTesla stealer using static strings and mutex patterns"
         malware_family = "AgentTesla"
         mitre_attack = "T1056.001, T1113, T1005"
-        reference = "https://tria.ge/240309-agt01"
+        reference = ""
         score = 85
         crosslink = "https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/agenttesla_c2_patterns.md"
 
