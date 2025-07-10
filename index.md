@@ -13,7 +13,7 @@
 | Amadey                 |             |                  |          |
 | Amaymon                |             |                  |          |
 | Anarchy Stealer        |             |                  |          |
-| Astaroth               |             |                  |          |
+| Astaroth | [basic](./families/astaroth_basic.yar) | [behavior](./ttps/astaroth_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/astaroth_yara_patterns.md) |
 | AsyncRAT               | [basic](./families/asyncrat_basic.yar) | [behavior](./ttps/asyncrat_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/asyncrat_yara_patterns.md) |
 | AteraAgent             |             |                  |          |
 | Atlantida Stealer      |             |                  |          |
