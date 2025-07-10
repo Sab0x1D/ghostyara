@@ -2,25 +2,26 @@ rule dcrat_behavior
 {
     meta:
         author = "Sab0x1D"
-        category = "rat"
-        family = "DCRat"
-        type = "behavior"
-        description = "Detects behavioral traits of DCRat (execution, registry, persistence)"
         date = "2025-07-10"
-        version = "1.0"
+        description = "Detects DcRAT behavior based on registry keys, process traits, and memory strings"
+        malware_family = "DcRAT"
+        mitre_attack = "T1053.005, T1547.001, T1071.001"
+        score = 85
+        crosslink = "https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/dcrat_yara_patterns.md"
 
     strings:
-        $cmd1 = "cmd.exe /c start" ascii
-        $reg1 = "Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run" ascii
-        $mutex1 = "DCRAT_MUTEX" ascii
-        $ps1 = "powershell -nop -w hidden -enc" ascii
-        $svc1 = "InstallUtil" ascii
+        $cmd = "cmd.exe /c start" ascii
+        $reg = "Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run" ascii wide
+        $mutex = "DCRAT_MUTEX" ascii
+        $ps = "powershell -nop -w hidden -enc" ascii
+        $util = "InstallUtil" ascii
+
         $mem1 = "dcrat" ascii
         $mem2 = "MUTEX" ascii
         $mem3 = "Server 1" ascii
-        $mem4 = "duckdns" ascii
-        $mem5 = "qwqdanchun" ascii
+        $mem4 = "duckdns" ascii nocase
+        $mem5 = "qwqdanchun" ascii nocase
 
     condition:
-        2 of ($cmd1, $reg1, $mutex1, $ps1, $svc1) or any of ($mem*)
+        2 of ($cmd, $reg, $mutex, $ps, $util) or any of ($mem*)
 }
