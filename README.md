@@ -2,7 +2,8 @@
 
 **Clean YARA Rule Repository**  
 Reverse-engineered rules for tracking, analyzing, and attributing malware samples.  
-**Focus:** Precision, portability, and low false positives.
+**Focus:** Precision, portability, and low false positives.  
+[Rules Index](./index.md)
 
 ---
 
@@ -23,7 +24,6 @@ Reverse-engineered rules for tracking, analyzing, and attributing malware sample
 | `packers/`          | Rules for identifying common packers and crypters     |
 | `ttps/`             | Behavior-based rules (mapped to MITRE ATT&CK TTPs)    |
 | `utils/`            | Templates, helpers, and other utilities               |
-| `rule_log.md`       | Log of added rules with notes and metadata            |
 
 > Samples and IOC mappings are documented in: [`sigtrack`](https://github.com/Sab0x1D/sigtrack)
 
