@@ -3,7 +3,8 @@
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
 
 
-### A
+### A  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
 | Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
 |------------------------|-------------|------------------|----------|
@@ -22,7 +23,8 @@
 | Azorult                |             |                  |          |
 | Azorult Loader         |             |                  |          |
 
-### B
+### B  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
 | Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
 |------------------------|-------------|------------------|----------|
@@ -37,7 +39,8 @@
 | Bumblebee              |             |                  |          |
 | Byakugan               |             |                  |          |
 
-### C
+### C  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
 | Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
 |------------------------|-------------|------------------|----------|
@@ -46,7 +49,8 @@
 | Conti                  |             |                  |          |
 | CyberGate              |             |                  |          |
 
-### D
+### D  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
 | Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
 |------------------------|-------------|------------------|----------|
@@ -55,169 +59,203 @@
 | DarkGate               |             |                  |          |
 | Dridex                 |             |                  |          |
 
-### E
+### E  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
 | Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
 |------------------------|-------------|------------------|----------|
 | Emotet                 |             |                  |          |
 | Expiro                 |             |                  |          |
 
-### F
+### F  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| FormBook               |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| FormBook        |             |                  |          |
 
-### G
+### G  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| Gh0st RAT              |             |                  |          |
-| GoTo RAT               |             |                  |          |
-| Goooxion               |             |                  |          |
-| Grandoreiro            |             |                  |          |
-| GuLoader               |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| Gh0st RAT       |             |                  |          |
+| GoTo RAT        |             |                  |          |
+| Goooxion        |             |                  |          |
+| Grandoreiro     |             |                  |          |
+| GuLoader        |             |                  |          |
 
-### H
+### H  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| Hancitor               |             |                  |          |
-| Horabot                |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| Hancitor        |             |                  |          |
+| Horabot         |             |                  |          |
 
-### I
+### I  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| IceID                  |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| IceID           |             |                  |          |
 
-### J
+### J  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| JanelaRAT              |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| JanelaRAT       |             |                  |          |
 
-### K
+### K  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| KLBanker               |             |                  |          |
-| Kutaki                 |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| KLBanker        |             |                  |          |
+| Kutaki          |             |                  |          |
 
-### L
+### L  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| Lampion                |             |                  |          |
-| Loda RAT               |             |                  |          |
-| LokiBot                |             |                  |          |
-| Lumma Stealer          |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| Lampion         |             |                  |          |
+| Loda RAT        |             |                  |          |
+| LokiBot         |             |                  |          |
+| Lumma Stealer   |             |                  |          |
 
-### M
+### M  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| Mekotio/Metamorfo      |             |                  |          |
-| MetaStealer            |             |                  |          |
-| Mispadu                |             |                  |          |
-| ModernLoader           |             |                  |          |
-| Muck Stealer           |             |                  |          |
-| MysterySnail           |             |                  |          |
-| Mystic                 |             |                  |          |
+| Malware Family     | Static Rule | Behavioral Rule | Sigtrack |
+|--------------------|-------------|------------------|----------|
+| Mekotio/Metamorfo  |             |                  |          |
+| MetaStealer        |             |                  |          |
+| Mispadu            |             |                  |          |
+| ModernLoader       |             |                  |          |
+| Muck Stealer       |             |                  |          |
+| MysterySnail       |             |                  |          |
+| Mystic             |             |                  |          |
 
-### N
+### N  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| NJRAT                  |             |                  |          |
-| Nanocore               |             |                  |          |
-| NetWire                |             |                  |          |
-| Netsupport Manager RAT |             |                  |          |
-| njW0rm                 |             |                  |          |
-| Nymaim                 |             |                  |          |
+| Malware Family           | Static Rule | Behavioral Rule | Sigtrack |
+|--------------------------|-------------|------------------|----------|
+| NJRAT                    |             |                  |          |
+| Nanocore                 |             |                  |          |
+| NetWire                  |             |                  |          |
+| Netsupport Manager RAT   |             |                  |          |
+| njW0rm                   |             |                  |          |
+| Nymaim                   |             |                  |          |
 
-### O
+### O  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family            | Static Rule | Behavioral Rule | Sigtrack |
-|---------------------------|-------------|------------------|----------|
-| OptiTune RAT              |             |                  |          |
-| Ousaban                   |             |                  |          |
-| Oyster Stealer / CleanU   |             |                  |          |
+| Malware Family           | Static Rule | Behavioral Rule | Sigtrack |
+|--------------------------|-------------|------------------|----------|
+| OptiTune RAT             |             |                  |          |
+| Ousaban                  |             |                  |          |
+| Oyster Stealer / CleanU  |             |                  |          |
 
-### P
+### P  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| Poco RAT               |             |                  |          |
-| PureCrypter            |             |                  |          |
-| Python RAT Loader      |             |                  |          |
+| Malware Family       | Static Rule | Behavioral Rule | Sigtrack |
+|----------------------|-------------|------------------|----------|
+| Poco RAT             |             |                  |          |
+| PureCrypter          |             |                  |          |
+| Python RAT Loader    |             |                  |          |
 
-### Q
+### Q  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| QakBot                 |             |                  |          |
-| QuakBot                |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| QakBot          |             |                  |          |
+| QuakBot         |             |                  |          |
 
-### R
+### R  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| Raccoon Stealer        |             |                  |          |
-| RakNet                 |             |                  |          |
-| Ramnit                 |             |                  |          |
-| Raspberry Robin        |             |                  |          |
-| Ratty RAT              |             |                  |          |
-| Redline Stealer        |             |                  |          |
-| Remcos | [basic](./families/remcos_basic.yar) | [behavior](./ttps/remcos_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/remcos_c2_patterns.md) |
-| Remcos Loader          |             |                  |          |
-| Rhadamanthys           |             |                  |          |
+| Malware Family       | Static Rule | Behavioral Rule | Sigtrack |
+|----------------------|-------------|------------------|----------|
+| Raccoon Stealer      |             |                  |          |
+| RakNet               |             |                  |          |
+| Ramnit               |             |                  |          |
+| Raspberry Robin      |             |                  |          |
+| Ratty RAT            |             |                  |          |
+| Redline Stealer      |             |                  |          |
+| Remcos               | [basic](./families/remcos_basic.yar) | [behavior](./ttps/remcos_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/remcos_c2_patterns.md) |
+| Remcos Loader        |             |                  |          |
+| Rhadamanthys         |             |                  |          |
 
-### S
+### S  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| STRRAT                 |             |                  |          |
-| Sapphire RAT           |             |                  |          |
-| SeroXen                |             |                  |          |
-| SmokeLoader            |             |                  |          |
-| Snake Keylogger        |             |                  |          |
-| SocGholish             |             |                  |          |
-| Stealc                 |             |                  |          |
-| Strela Stealer         |             |                  |          |
+| Malware Family       | Static Rule | Behavioral Rule | Sigtrack |
+|----------------------|-------------|------------------|----------|
+| STRRAT               |             |                  |          |
+| Sapphire RAT         |             |                  |          |
+| SeroXen              |             |                  |          |
+| SmokeLoader          |             |                  |          |
+| Snake Keylogger      |             |                  |          |
+| SocGholish           |             |                  |          |
+| Stealc               |             |                  |          |
+| Strela Stealer       |             |                  |          |
 
-### T
+### T  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| TVrat                  |             |                  |          |
-| Trickbot               |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| TVrat           |             |                  |          |
+| Trickbot        |             |                  |          |
 
-### U
+### U  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| UltraVNC               |             |                  |          |
-| Ursnif                 |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| UltraVNC        |             |                  |          |
+| Ursnif          |             |                  |          |
 
-### V
+### V  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| VJW0rm                 |             |                  |          |
-| ValleyRAT              |             |                  |          |
-| Venom RAT              |             |                  |          |
-| Vidar Stealer          |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| VJW0rm          |             |                  |          |
+| ValleyRAT       |             |                  |          |
+| Venom RAT       |             |                  |          |
+| Vidar Stealer   |             |                  |          |
 
-### W
+### W  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| WSHRAT                 |             |                  |          |
-| Warzone RAT            |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| WSHRAT          |             |                  |          |
+| Warzone RAT     |             |                  |          |
 
-### X
+### X  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
 
-| Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
-|------------------------|-------------|------------------|----------|
-| XWorm                  |             |                  |          |
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+| XWorm           |             |                  |          |
+
+### Y  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
+
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+|                 |             |                  |          |
+
+### Z  
+[↑ Back to top](#malware-family-coverage-jump-to-section)
+
+| Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
+|-----------------|-------------|------------------|----------|
+|                 |             |                  |          |
