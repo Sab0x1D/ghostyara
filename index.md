@@ -47,7 +47,7 @@
 
 | Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
 |------------------------|-------------|------------------|----------|
-| DCRat                  |             |                  |          |
+| DCRat                  | [basic](./families/dcrat_basic.yar) | [behavior](./ttps/dcrat_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/dcrat_yara_patterns.md) |
 | DarkComet              |             |                  |          |
 | DarkGate               |             |                  |          |
 | Dridex                 |             |                  |          |
