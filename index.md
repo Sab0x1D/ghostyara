@@ -123,7 +123,7 @@
 | Lampion         |             |                  |          |
 | Loda RAT        |             |                  |          |
 | LokiBot         |             |                  |          |
-| Lumma Stealer   |             |                  |          |
+| Lumma Stealer | [basic](./families/lumma_basic.yar) | [behavior](./ttps/lumma_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/lumma_yara_patterns.md) |
 
 ### M  
 [↑ Back to top](#malware-family-coverage-jump-to-section)
