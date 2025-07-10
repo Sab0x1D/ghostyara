@@ -3,22 +3,22 @@ rule venomrat_basic
     meta:
         author = "Sab0x1D"
         date = "2025-07-11"
-        description = "Detects VenomRAT based on hardcoded strings and static config markers"
+        description = "Detects VenomRAT payloads using known mutex, network, and stub config strings"
         malware_family = "VenomRAT"
         score = 85
-        version = "1.0"
+        crosslink = "https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/venomrat_yara_patterns.md"
 
     strings:
-        $s1 = "VenomRAT" ascii
-        $s2 = "Mutex_" ascii
-        $s3 = "System.Net.Sockets" ascii
-        $s4 = "client connected" ascii
-        $s5 = "InstallPath" ascii
-        $s6 = "StubSettings" ascii
-        $s7 = "GetHwid" ascii
-        $s8 = "venomsoftware" ascii
+        $mutex = "Mutex_" ascii
+        $str1 = "VenomRAT" ascii
+        $str2 = "System.Net.Sockets" ascii
+        $str3 = "client connected" ascii
+        $str4 = "InstallPath" ascii
+        $str5 = "StubSettings" ascii
+        $str6 = "GetHwid" ascii
+        $str7 = "venomsoftware" ascii
         $cmd = "powershell -nop -w hidden" ascii
 
     condition:
-        3 of ($s*) or $cmd
+        uint16(0) == 0x5A4D and 4 of ($mutex, $str*, $cmd)
 }
