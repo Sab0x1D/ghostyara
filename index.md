@@ -228,7 +228,7 @@
 |-----------------|-------------|------------------|----------|
 | VJW0rm          |             |                  |          |
 | ValleyRAT       |             |                  |          |
-| Venom RAT       |             |                  |          |
+| VenomRAT | [basic](./families/venomrat_basic.yar) | [behavior](./ttps/venomrat_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/venomrat_c2_patterns.md) |
 | Vidar Stealer   |             |                  |          |
 
 ### W  
