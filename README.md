@@ -3,7 +3,7 @@
 **Clean YARA Rule Repository**  
 Reverse-engineered rules for tracking, analyzing, and attributing malware samples.  
 **Focus:** Precision, portability, and low false positives.  
-[Rules Index](./index.md)
+[Rules Index](./index.md#top)
 
 ---
 
