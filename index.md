@@ -166,7 +166,7 @@
 | Raspberry Robin        |             |                  |          |
 | Ratty RAT              |             |                  |          |
 | Redline Stealer        |             |                  |          |
-| Remcos                 |             |                  |          |
+| Remcos | [basic](./families/remcos_basic.yar) | [behavior](./ttps/remcos_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/remcos_c2_patterns.md) |
 | Remcos Loader          |             |                  |          |
 | Rhadamanthys           |             |                  |          |
 
