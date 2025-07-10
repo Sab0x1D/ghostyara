@@ -46,3 +46,4 @@ External PRs are welcome if:
 - Include references or evidence
 - Maintain precision and context via metadata
 
+[Rules Index](./index.md)
