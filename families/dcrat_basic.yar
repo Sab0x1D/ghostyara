@@ -2,20 +2,22 @@ rule dcrat_basic
 {
     meta:
         author = "Sab0x1D"
-        category = "rat"
-        family = "DCRat"
-        type = "static"
-        description = "Detects static characteristics of DCRat"
         date = "2025-07-10"
-        version = "1.0"
+        description = "Detects DcRAT payloads using static configuration strings and mutex artifacts"
+        malware_family = "DcRAT"
+        mitre_attack = "T1059.001, T1027, T1218.005"
+        score = 90
+        crosslink = "https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/dcrat_yara_patterns.md"
 
     strings:
-        $s1 = "DC-Software" ascii
-        $s2 = "DCRatClient" ascii
-        $s3 = "ClientInstall" ascii
-        $s4 = "Software\\Microsoft\\Windows\\CurrentVersion\\Run" ascii
-        $s5 = "Stub\\Config" ascii
+        $s1 = "dcrat" ascii nocase
+        $s2 = "Server 1" ascii
+        $s3 = "duckdns" ascii nocase
+        $s4 = "qwqdanchun" ascii nocase
+        $s5 = "InstallUtil" ascii
+        $mutex = "MUTEX" ascii
 
     condition:
-        all of them
+        uint16(0) == 0x5A4D and
+        3 of ($s*) and $mutex
 }
