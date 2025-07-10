@@ -1,4 +1,4 @@
-## Malware Family Coverage (A–Z)
+## Malware Family Coverage
 
 ### A
 
