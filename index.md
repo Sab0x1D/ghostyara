@@ -132,7 +132,7 @@
 |--------------------|-------------|------------------|----------|
 | Metamorfo/Mekotio  | [basic](./families/metamorfo_basic.yar) | [behavior](./ttps/metamorfo_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/metamorfo_yara_patterns.md) |
 | MetaStealer        |             |                  |          |
-| Mispadu            |             |                  |          |
+| Mispadu            | [basic](./families/mispadu_basic.yar) | [behavior](./ttps/mispadu_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/mispadu_c2_patterns.md) |
 | ModernLoader       |             |                  |          |
 | Muck Stealer       |             |                  |          |
 | MysterySnail       |             |                  |          |
