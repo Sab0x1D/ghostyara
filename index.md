@@ -121,7 +121,7 @@
 | Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
 |-----------------|-------------|------------------|----------|
 | Lampion         |             |                  |          |
-| Loda RAT        |             |                  |          |
+| LodaRAT         | [basic](./families/lodarat_basic.yar) | [behavior](./ttps/lodarat_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/lodarat_yara_patterns.md) |
 | LokiBot         |             |                  |          |
 | Lumma Stealer | [basic](./families/lumma_basic.yar) | [behavior](./ttps/lumma_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/lumma_yara_patterns.md) |
 
