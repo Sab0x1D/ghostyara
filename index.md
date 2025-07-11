@@ -83,7 +83,7 @@
 | GoTo RAT        |             |                  |          |
 | Goooxion        |             |                  |          |
 | Grandoreiro     |             |                  |          |
-| GuLoader        |             |                  |          |
+| GULoader        | [basic](./families/guloader_basic.yar) | [behavior](./ttps/guloader_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/guloader_c2_patterns.md) |
 
 ### H  
 [↑ Back to top](#malware-family-coverage-jump-to-section)
