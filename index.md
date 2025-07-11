@@ -72,7 +72,7 @@
 
 | Malware Family  | Static Rule | Behavioral Rule | Sigtrack |
 |-----------------|-------------|------------------|----------|
-| FormBook        |             |                  |          |
+| FormBook        | [basic](./families/formbook_basic.yar) | [behavior](./ttps/formbook_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/formbook_c2_patterns.md) |
 
 ### G  
 [↑ Back to top](#malware-family-coverage-jump-to-section)
