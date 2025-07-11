@@ -13,7 +13,7 @@
 | Amadey                 |             |                  |          |
 | Amaymon                |             |                  |          |
 | Anarchy Stealer        |             |                  |          |
-| Astaroth | [basic](./families/astaroth_basic.yar) | [behavior](./ttps/astaroth_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/astaroth_yara_patterns.md) |
+| Astaroth               | [basic](./families/astaroth_basic.yar) | [behavior](./ttps/astaroth_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/astaroth_yara_patterns.md) |
 | AsyncRAT               | [basic](./families/asyncrat_basic.yar) | [behavior](./ttps/asyncrat_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/asyncrat_yara_patterns.md) |
 | AteraAgent             |             |                  |          |
 | Atlantida Stealer      |             |                  |          |
@@ -130,7 +130,7 @@
 
 | Malware Family     | Static Rule | Behavioral Rule | Sigtrack |
 |--------------------|-------------|------------------|----------|
-| Mekotio/Metamorfo  |             |                  |          |
+| Metamorfo/Mekotio  | [basic](./families/metamorfo_basic.yar) | [behavior](./ttps/metamorfo_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/metamorfo_yara_patterns.md) |
 | MetaStealer        |             |                  |          |
 | Mispadu            |             |                  |          |
 | ModernLoader       |             |                  |          |
