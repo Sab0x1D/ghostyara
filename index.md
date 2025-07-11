@@ -10,7 +10,7 @@
 |------------------------|-------------|------------------|----------|
 | Adwind                 |             |                  |          |
 | Agent Tesla            | [basic](./families/agenttesla_basic.yar) | [behavior](./ttps/agenttesla_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/agenttesla_yara_patterns.md) |
-| Amadey                 |             |                  |          |
+| Amadey                 | [basic](./families/amadey_basic.yar) | [behavior](./ttps/amadey_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/amadey_yara_patterns.md) |
 | Amaymon                |             |                  |          |
 | Anarchy Stealer        |             |                  |          |
 | Astaroth               | [basic](./families/astaroth_basic.yar) | [behavior](./ttps/astaroth_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/astaroth_yara_patterns.md) |
