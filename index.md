@@ -64,7 +64,7 @@
 
 | Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
 |------------------------|-------------|------------------|----------|
-| Emotet                 |             |                  |          |
+| Emotet                 | [basic](./families/emotet_basic.yar) | [behavior](./ttps/emotet_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/emotet_yara_patterns.md) |
 | Expiro                 |             |                  |          |
 
 ### F  
