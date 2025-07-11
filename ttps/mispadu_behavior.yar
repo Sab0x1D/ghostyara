@@ -1,20 +1,22 @@
-rule Mispadu_Behavior_Execution_Chain
+rule mispadu_behavior
 {
     meta:
         author = "Sab0x1D"
-        family = "Mispadu"
-        type = "behavioral"
-        description = "Detects behavioral execution chain of Mispadu campaign"
-        created = "2025-07-11"
+        date = "2025-07-11"
+        description = "Detects behavioral execution chain of Mispadu (pdf > zip > hta > vbs > AutoIt)"
+        malware_family = "Mispadu"
+        mitre_attack = "T1204.002, T1059.005, T1055"
+        score = 85
+        crosslink = "https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/mispadu_c2_patterns.md"
 
     strings:
-        $hta = ".hta"
-        $vbs = ".vbs"
-        $ps1 = ".ps1"
-        $exe = ".exe"
-        $autoit_error = "AutoIt v3 Script has stopped working"
-        $prompt_msg = "Please enter the password"
+        $s1 = ".hta" ascii
+        $s2 = ".vbs" ascii
+        $s3 = "AutoIt" ascii
+        $s4 = "Introduzca la contrasena" ascii
+        $s5 = "AutoIt v3 Script has stopped working" ascii
+        $s6 = "C:\\Users\\Public" ascii
 
     condition:
-        all of ($hta, $vbs, $ps1, $exe) and any of ($autoit_error, $prompt_msg)
+        all of ($s*)
 }
