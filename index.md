@@ -146,7 +146,7 @@
 | NJRAT                    |             |                  |          |
 | Nanocore                 |             |                  |          |
 | NetWire                  |             |                  |          |
-| Netsupport Manager RAT   |             |                  |          |
+| NetSupport Manager RAT   | [basic](./families/netsupport_basic.yar) | [behavior](./ttps/netsupport_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/netsupport_yara_patterns.md) |
 | njW0rm                   |             |                  |          |
 | Nymaim                   |             |                  |          |
 
