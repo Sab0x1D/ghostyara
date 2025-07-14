@@ -143,7 +143,7 @@
 
 | Malware Family           | Static Rule | Behavioral Rule | Sigtrack |
 |--------------------------|-------------|------------------|----------|
-| NJRAT                    |             |                  |          |
+| njRAT | [basic](./families/njrat_basic.yar) | [behavior](./ttps/njrat_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/njrat_yara_patterns.md) |
 | Nanocore                 |             |                  |          |
 | NetWire                  |             |                  |          |
 | NetSupport Manager RAT   | [basic](./families/netsupport_basic.yar) | [behavior](./ttps/netsupport_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/netsupport_yara_patterns.md) |
