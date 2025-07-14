@@ -82,7 +82,7 @@
 | Gh0st RAT       |             |                  |          |
 | GoTo RAT        |             |                  |          |
 | Goooxion        |             |                  |          |
-| Grandoreiro     |             |                  |          |
+| Grandoreiro | [basic](./families/grandoreiro_basic.yar) | [behavior](./ttps/grandoreiro_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/grandoreiro_yara_patterns.md) |
 | GULoader        | [basic](./families/guloader_basic.yar) | [behavior](./ttps/guloader_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/guloader_c2_patterns.md) |
 
 ### H  
