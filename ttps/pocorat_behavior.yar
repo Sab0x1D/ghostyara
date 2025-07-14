@@ -15,6 +15,12 @@ rule pocorat_behavior
         $cfg = "UpdateConfigFromServer" ascii
         $rat = "PocoRAT" ascii
         $mutex = "PocoClient" ascii
+        $spawn1 = "CP09274.exe" ascii
+        $spawn2 = "cttune.exe" ascii
+        $dllhost = "dllhost.exe" ascii
+        $poco_str = "poco-1.12.4-all" ascii
+        $c2a = "94.131.119.126" ascii
+        $c2b = "193.233.203.63" ascii
 
     condition:
         4 of them
