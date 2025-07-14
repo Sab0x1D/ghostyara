@@ -28,7 +28,7 @@
 
 | Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
 |------------------------|-------------|------------------|----------|
-| BBTok Banking Trojan   |             |                  |          |
+| BBTok | [basic](./families/bbtok_basic.yar) | [behavior](./ttps/bbtok_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/bbtok_yara_patterns.md) |
 | Bandook                |             |                  |          |
 | Banload                |             |                  |          |
 | Bazar-Backdoor         |             |                  |          |
