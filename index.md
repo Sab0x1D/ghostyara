@@ -44,7 +44,7 @@
 
 | Malware Family         | Static Rule | Behavioral Rule | Sigtrack |
 |------------------------|-------------|------------------|----------|
-| Cobalt Strike          |             |                  |          |
+| CobaltStrike | [basic](./families/cobaltstrike_basic.yar) | [behavior](./ttps/cobaltstrike_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/cobaltstrike_yara_patterns.md) |
 | ConnectWise RAT        |             |                  |          |
 | Conti                  |             |                  |          |
 | CyberGate              |             |                  |          |
