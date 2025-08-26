@@ -166,6 +166,7 @@
 |----------------------|-------------|------------------|----------|
 | Poco RAT | [basic](./families/pocorat_basic.yar) | [behavior](./ttps/pocorat_behavior.yar) | [link](https://github.com/Sab0x1D/sigtrack/blob/main/yara_map/pocorat_yara_patterns.md) |
 | PureCrypter          |             |                  |          |
+| PureLog Stealer      | [basic](./families/pureLogsWEIGHTED-HEUR.yar)            |                  |          |
 | Python RAT Loader    |             |                  |          |
 
 ### Q  
