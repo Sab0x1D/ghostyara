@@ -1,7 +1,8 @@
 # ghostyara
 
-**MOVING RULE SETS TO MAIN BLOG PAGE**
-https://sab0x1d.github.io/blogs/
+**MOVING RULE SETS TO MAIN BLOG PAGE**  
+https://sab0x1d.github.io/blogs/ghostyara/
+
 
 **Clean YARA Rule Repository**  
 Reverse-engineered rules for tracking, analyzing, and attributing malware samples.  
